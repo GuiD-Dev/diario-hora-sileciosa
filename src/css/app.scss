@@ -1,0 +1,28 @@
+// app global css in SCSS form
+body {
+    background: #2c3e50;
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    
+    /*
+    background: #BA8B02;
+    background: -webkit-linear-gradient(to right, #181818, #BA8B02);
+    background: linear-gradient(to right, #181818, #BA8B02);
+    
+    background: #000000;
+    background: -webkit-linear-gradient(to left, #e74c3c, #000000);
+    background: linear-gradient(to left, #e74c3c, #000000);
+    */
+
+    .bg-black-pv {
+        background-color: $customBlack;
+    }
+
+    .bg-darkBlue-pv {
+        background-color: $darkBlue;
+    }
+
+    .bg-lightBlue-pv {
+        background-color: $lightBlue;
+    }
+}

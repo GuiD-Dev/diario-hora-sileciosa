@@ -1,0 +1,38 @@
+{
+  "name": "diario-hora-silenciosa",
+  "version": "0.0.1",
+  "description": "Devocional do Palavra da Vida",
+  "productName": "Diario de Hora Silenciosa",
+  "cordovaId": "org.pvmozambique.diariohorasilenciosa",
+  "capacitorId": "",
+  "author": "Guilherme Dietrich",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0",
+    "deploy:pwa": "quasar build -m pwa && push-dir --dir=dist/pwa --remote=origin --branch=deploy"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "quasar": "^1.0.0",
+    "vue-i18n": "^8.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "push-dir": "^0.4.1"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
